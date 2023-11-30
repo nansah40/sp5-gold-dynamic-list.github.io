@@ -71,3 +71,15 @@ main img { float: left;
 main ul { list-style-position: inside; }
 .clear { clear: both; }
 header, nav, main, footer { display: block; }
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the space between images */
+    margin-bottom: 20px; /* Space before the footer */
+}
+
+.image-row img {
+    width: 30%; /* Adjust the width as needed */
+    height: auto; /* This ensures the aspect ratio is maintained */
+}
